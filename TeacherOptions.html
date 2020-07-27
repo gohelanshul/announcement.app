@@ -1,0 +1,77 @@
+<!--
+Name: Anshul Gohel
+Course Code: ICS3UR-B
+Date: 23.4.2019
+Announcement App 2.0
+-->
+
+
+<DOCTYPE! html>
+    <html>
+
+    <head>
+
+        <title>North Park Announcements App 2.0</title>
+    </head>
+
+    <body style="text-align: center">
+        <br>
+        <h1>Announcement Creator</h1>
+        <div class="boxing">
+            <br>
+            <h3> Title: <input type="text" placeholder="  Enter Title" size="25" id="annTitle"></input> </h3>
+            <h3> Description:
+                <input id="annDescription" type="text" placeholder="   Enter Details and Date of Announcement" size="40"></input>
+            </h3>
+            <div id="Grade_box">
+                <h3>Grade:</h3>
+                <select id="grade">
+                    <option></option>
+                    <option value="9">Grade 9</option>
+                    <option value="10">Grade 10</option>
+                    <option value="11">Grade 11</option>
+                    <option value="12">Grade 12</option>
+                    <option value="All">All Grades</option>
+                </select>
+            </div>
+
+            <div id="Gender_box">
+                <h3>Gender:</h3>
+                <select id="gender">
+                    <option></option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    <option value="All">All Genders</option>
+                </select>
+            </div>
+
+            <div id="Clubs">
+                <h3>Clubs:</h3>
+                <select id="club1">
+                    <option></option>
+                    <option value="Model UN">Model UN</option>
+                    <option value="HOSA">HOSA</option>
+                    <option value="Computer Club">Computer Club</option>
+                    <option value="Robotics">Robotics</option>
+                    <option value="DECA">DECA</option>
+                    <option value="Photography Club">Photography Club</option>
+                    <option value="All">All Clubs</option>
+                </select>
+
+            </div>
+            <br>
+            <input type="button" value="Submit Announcement" onclick="processAnn()"></input>
+        </div>
+
+        <p id="one"></p>
+        <p id="two"></p>
+        <p id="three"></p>
+        <div></div>
+        <a class="wagwan" href="startscreen.html"> &nbsp Home &nbsp </a>
+        <script src="TeacherCreator.js"></script>
+        <link rel="stylesheet" type="text/css" href="app.css">
+
+    </body>
+
+    </html>
